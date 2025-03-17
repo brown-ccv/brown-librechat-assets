@@ -1,5 +1,5 @@
 FROM alpine:latest
 
-WORKDIR /shared
+WORKDIR /tmp
 
-COPY images/logo.svg /shared/logo.svg
+COPY images/logo.svg /tmp/logo.svg
