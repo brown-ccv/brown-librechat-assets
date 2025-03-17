@@ -5,7 +5,7 @@ on:
       - '*'
 env:
   REGISTRY: ghcr.io
-  IMAGE_NAME: brown/brown-librechat-assets
+  IMAGE_NAME: brown-ccv/brown-librechat-assets
 
 jobs:
   build_and_push:
