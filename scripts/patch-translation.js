@@ -6,7 +6,7 @@ window.addEventListener('load', () => {
   
     const tryPatch = () => {
       if (window.i18next) {
-        window.i18next.addResources('th', 'translation', patch);
+        window.i18next.addResources('en', 'translation', patch);
       } else {
         setTimeout(tryPatch, 200); // wait until i18next is ready
       }
