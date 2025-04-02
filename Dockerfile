@@ -6,3 +6,5 @@ COPY images/logo.svg /shared/logo.svg
 COPY images/favicon-16x16.png /shared/favicon-16x16.png
 COPY images/favicon-32x32.png /shared/favicon-32x32.png
 
+COPY scripts/patch-translation.js /shared/patch-translation.js
+
