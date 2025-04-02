@@ -7,6 +7,8 @@ window.addEventListener('load', () => {
     const tryPatch = () => {
       if (window.i18next) {
         window.i18next.addResources('en', 'translation', patch);
+        window.i18next.reloadResources('en');
+        window.i18next.changeLanguage('en');
       } else {
         setTimeout(tryPatch, 200); // wait until i18next is ready
       }
