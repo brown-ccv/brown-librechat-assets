@@ -1,6 +1,6 @@
 window.addEventListener('load', () => {
     const patch = {
-      "some_translation_key": "Your hotfix string",
+      "com_auth_welcome_back": "Welcome Brown Student",
       "another_key": "Patched value"
     };
   
