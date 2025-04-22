@@ -3,8 +3,8 @@ FROM alpine:latest as patcher
 RUN apk add --no-cache jq git
 
 
-# download librechat source code
-RUN git clone https://github.com/danny-avila/LibreChat.git
+# download librechat source code. depth only clones source code not git history
+RUN git clone --branch v0.7.7 --depth 1 https://github.com/danny-avila/LibreChat.git
 
 # copy path files to container
 WORKDIR /patches
